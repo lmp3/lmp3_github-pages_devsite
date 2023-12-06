@@ -1,2 +1,3 @@
-# lmp3_github-pages_devsite
-Developer Portfolio Showcase by Louis Morrison Privette III.
+[Home](README.md) | [Linktree](linktree.md) | [Projects](projects.md) | 
+
+# Developer Portfolio Showcase by Louis Morrison Privette III.
