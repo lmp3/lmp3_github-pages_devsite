@@ -1,3 +1,3 @@
-**[Home]** | [Linktree](linktree.md) | [Projects](projects.md) | 
+**[Home]** | [Projects](projects.md) | [Tree O'Links](linktree.md) | 
 
-# Developer Portfolio Showcase by Louis Morrison Privette III.
+# Developer Showcase for Louis Morrison Privette III.
