@@ -13,9 +13,10 @@ Notes for mimeo.css
         https://en.wikipedia.org/wiki/HSL_and_HSV
         https://web-toolbox.dev/en/tools/color-converter
 
-    'mauveine' = hex #8D029B, hsla(295, 97%, 31%, 1)
-    'parchment' = hex #FF5733, hsla(11, 80%, 60%, 1) error
-    'old paper' = hex #E0C9A6, hsla(36, 48%, 76%, 1)
+    'Mauveine' = hex #8D029B, hsla(295, 97%, 31%, 1)
+    'Parchment' = hex #F1E9D2, hsla(45, 53%, 88%, 1)
+    '???parchment' = hex #FF5733, hsla(11, 80%, 60%, 1) error, interesting hex/hsla color though, peach?
+    'Old Paper' = hex #E0C9A6, hsla(36, 48%, 76%, 1)
     °
 */
 
@@ -25,7 +26,7 @@ Notes for mimeo.css
 
 body {
     height: 1px;
-    background-image: linear-gradient(to top left, hsla(36, 48%, 76%, 1), hsla(295, 97%, 31%, 0.7));
+    background-image: linear-gradient(to top left, hsla(295, 97%, 31%, 0.7), hsla(36, 48%, 76%, 1));
     /*    filter: blur(90%); */
     /*    background-repeat: no-repeat; */
     font-family: "Lucida Console", "Courier New", monospace;
