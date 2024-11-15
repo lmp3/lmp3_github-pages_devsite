@@ -22,9 +22,9 @@ Notes for mimeo.css (v1)
             Split Complementary to 'CRT-Green'* (red) 'CRT-Red'* = #b00940, hsla(340, 90%, 36%, 1)
     'Parchment' = hex #F1E9D2, hsla(45, 53%, 88%, 1)
         5% lighter = #F7F2E5, hsla(43, 53%, 93%, 1)
-        10% lighter = #FDFCF8, hsla(48, 55%, 98%, 1)
-        5% darker = #EADFBE, hsl(45, 51%, 83%)
-        10% darker = #E4D5AB, hsl(44, 51%, 78%)
+        10% lighter = #FDFCF8, hsl(48, 55%, 98%, 1)
+        5% darker =
+        10% darker =
         
     '???parchment' = hex #FF5733, hsla(11, 80%, 60%, 1) error, interesting hex/hsla color though, peach?
     'Old Paper' = hex #E0C9A6, hsla(36, 48%, 76%, 1)
