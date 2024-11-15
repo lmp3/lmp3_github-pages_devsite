@@ -32,11 +32,15 @@
 
         <p>The "justify-content: center;" aligns the flex items at the center of the container:</p>
 
-        <div class="flex-container">
+        <section class="flex-container">
             <div>1</div>
             <div>2</div>
             <div>3</div>  
-        </div>
+        </section>
+
+        <section>        
+            <div class="paper">Howdy</div>
+        </section>
 
 	</main>
         <hr >
