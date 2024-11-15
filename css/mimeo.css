@@ -14,20 +14,26 @@ Notes for mimeo.css (v1)
         https://web-toolbox.dev/en/tools/color-converter
 
     'Mauveine' = hex #8D029B, hsla(295, 97%, 31%, 1)
-        Analogous to 'Mauvine' (reder) = #9B015C, hsla(325, 99%, 31%, 1)
-        Analogous to 'Mauvine' (bluer) = #40019B, hsla(265, 99%, 31%, 1)
+        Analogous to 'Mauvine' (reder) = #9B015C, hsla(325, 99%, 31%, 1) [Visited Links?]
+        Analogous to 'Mauvine' (bluer) = #40019B, hsla(265, 99%, 31%, 1) [Links?]
         Split Complementary to 'Mauvine' (red) = #9b1302, hsla(6, 97%, 31%, 1)
         Split Complementary to 'Mauvine' (green) 'CRT-Green'* = #029b50, hsla(151, 97%, 31%, 1)
             Split Complementary to 'CRT-Green'* (blue) 'CRT-Blue'* = #0983b0, hsla(196, 90%, 36%, 1)
             Split Complementary to 'CRT-Green'* (red) 'CRT-Red'* = #b00940, hsla(340, 90%, 36%, 1)
-    'Parchment' = hex #F1E9D2, hsla(45, 53%, 88%, 1)
+    'Parchment' = hex #F1E9D2, hsla(45, 53%, 88%, 1) ['Parchemnt' is lighter than 'Old Paper']
         5% lighter = #F7F2E5, hsla(43, 53%, 93%, 1)
         10% lighter = #FDFCF8, hsla(48, 55%, 98%, 1)
-        5% darker = #EADFBE, hsl(45, 51%, 83%)
-        10% darker = #E4D5AB, hsl(44, 51%, 78%)
-        
-    '???parchment' = hex #FF5733, hsla(11, 80%, 60%, 1) error, interesting hex/hsla color though, peach?
+        5% darker = #EADFBE, hsla(45, 51%, 83%, 1)
+        10% darker = #E4D5AB, hsla(44, 51%, 78%, 1)
     'Old Paper' = hex #E0C9A6, hsla(36, 48%, 76%, 1)
+        5% lighter = #E6D4B8, hsla(37, 48%, 81%, 1)
+        10% lighter = #EDDFCB, hsla(35, 49%, 86%, 1)
+        5% darker = #D9BD93, hsla(36, 48%, 71%, 1)
+        10% darker = #D2B280, hsla(37, 48%, 66%, 1)
+    'Rosy Brown' = #BC8F8F, hsla(0, 25%, 65%, 1) [Paper edges]
+    'Tuscan Brown' = #6F4E37, hsla(25, 34%, 33%, 1)
+    
+    '???parchment_mistake' = hex #FF5733, hsla(11, 80%, 60%, 1) error, interesting hex/hsla color though, peach?
     
     *Color names I made up.
     °
@@ -43,7 +49,7 @@ Notes for mimeo.css (v1)
     flex-direction: row;
     justify-content: center;
     background-color: hsla(36, 48%, 76%, 1);
-    box-shadow: inset 0 0 10px #6f4e37;
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1);
     width: 90%;
 }
 
@@ -56,7 +62,7 @@ Notes for mimeo.css (v1)
 
 .flex-container > div {
     background-color: hsla(45, 53%, 88%, 1);
-    box-shadow: inset 0 0 10px #bc8f8f;
+    box-shadow: inset 0 0 10px hsla(0, 25%, 65%, 1);
     width: 100px;
     margin: 10px;
     text-align: center;
@@ -64,44 +70,132 @@ Notes for mimeo.css (v1)
     font-size: 30px;
 }
 
-/* Messy stack of paper */
-.paper {
+/* Messy stacks of old browning paper... */
+/* Papers Version One */
+
+.oldpapers-v1 {
     background: hsla(36, 48%, 76%, 1);
-    box-shadow: inset 0 0 10px #6f4e37;  
-  padding: 30px;
-  position: relative;
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1);  
+    padding: 30px;
+    position: relative;
 }
 
-.paper,
-.paper::before,
-.paper::after {
+.oldpapers-v1,
+.oldpapers-v1::before,
+.oldpapers-v1::after {
   /* Styles to distinguish sheets from one another */
   /* box-shadow: 1px 1px 1px rgba(0,0,0,0.25); Original config. */
   /* border: 1px solid #bbb; Original config. */
 }
 
-.paper::before,
-.paper::after {
-    background: hsla(36, 48%, 76%, 1);
-    box-shadow: inset 0 0 10px #6f4e37; 
-  content: "";
+.oldpapers-v1::before,
+.oldpapers-v1::after {
+  content: ""; /* What is this??? Why is it here?... */
   position: absolute;
   height: 95%;
   width: 99%;
 }
 
-.paper::before {
-  right: 15px;
-  top: 0;
-  transform: rotate(-1deg);
-  z-index: -1;
+.oldpapers-v1::before {
+    background: hsla(37, 48%, 66%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    right: 15px;
+    top: 0;
+    transform: rotate(-1deg);
+    z-index: -1;
 }
 
-.paper::after {
-  top: 5px;
-  right: -5px;
-  transform: rotate(1deg);
-  z-index: -2;
+.oldpapers-v1::after {
+    background: hsla(36, 48%, 71%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    top: 5px;
+    right: -5px;
+    transform: rotate(1deg);
+    z-index: -2;
+}
+
+/* Papers Version Two */
+.oldpapers-v2 {
+    background: hsla(36, 48%, 76%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1);  
+    padding: 30px;
+    position: relative;
+}
+
+.oldpapers-v2,
+.oldpapers-v2::before,
+.oldpapers-v2::after {
+  /* Styles to distinguish sheets from one another */
+  /* box-shadow: 1px 1px 1px rgba(0,0,0,0.25); Original config. */
+  /* border: 1px solid #bbb; Original config. */
+}
+
+.oldpapers-v2::before,
+.oldpapers-v2::after {
+  content: ""; /* What is this??? Why is it here?... */
+  position: absolute;
+  height: 95%;
+  width: 99%;
+}
+
+.oldpapers-v2::before {
+    background: hsla(37, 48%, 66%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    right: 3px;
+    top: 3px;
+    transform: rotate(-1deg);
+    z-index: -1;
+}
+
+.oldpapers-v2::after {
+    background: hsla(36, 48%, 71%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    top: 1px;
+    right: 10px;
+    transform: rotate(1deg);
+    z-index: -2;
+}
+
+/* Version Three */
+.oldpapers-v3 {
+    background: hsla(36, 48%, 76%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1);  
+    padding: 30px;
+    position: relative;
+}
+
+.oldpapers-v3,
+.oldpapers-v3::before,
+.oldpapers-v3::after {
+  /* Styles to distinguish sheets from one another */
+  /* box-shadow: 1px 1px 1px rgba(0,0,0,0.25); Original config. */
+  /* border: 1px solid #bbb; Original config. */
+}
+
+.oldpapers-v3::before,
+.oldpapers-v3::after {
+  content: ""; /* What is this??? Why is it here?... */
+  position: absolute;
+  height: 95%;
+  width: 99%;
+}
+
+.oldpapers-v3::before {
+    background: hsla(37, 48%, 66%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    right: 15px;
+    top: 0;
+    transform: rotate(1deg);
+    z-index: -1;
+}
+
+.oldpapers-v3::after {
+    background: hsla(36, 48%, 71%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    top: 5px;
+    right: -5px;
+    transform: rotate(-1deg);
+    z-index: -2;
 }
 
 body {
@@ -126,15 +220,15 @@ p {
 
 
 h1 {
-    color: #8D029B;  /* mauveine' - #8D029B - hsl(295, 97%, 31%) */
+    color: hsl(295, 97%, 31%);  /* mauveine' - #8D029B - hsl(295, 97%, 31%) */
 }
 
 .inner-shadow_rosy_brown {
-    box-shadow: inset 0 0 10px #bc8f8f;
+    box-shadow: inset 0 0 10px hsla(0, 25%, 65%, 1);
 }
 
 .inner-shadow_tuscan {
-    box-shadow: inset 0 0 10px #6f4e37;
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1);
 }
 
 .inner-shadow_mauveine {
@@ -142,7 +236,7 @@ h1 {
 }
 
 section {
-    color: #8D029B;  /* mauveine' - #8D029B - hsl(295, 97%, 31%) */
+    color: hsl(295, 97%, 31%);  /* mauveine' - #8D029B - hsl(295, 97%, 31%) */
 }
 
 footer {

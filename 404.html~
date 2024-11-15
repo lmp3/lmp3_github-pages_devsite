@@ -37,10 +37,19 @@
             <div>2</div>
             <div>3</div>  
         </section>
-
+<br ><br >
         <section>        
-            <div class="paper">Howdy</div>
+            <div class="oldpapers-v1">Howdy 1</div>
         </section>
+<br ><br >
+        <section>        
+            <div class="oldpapers-v2">Howdy 2</div>
+        </section>
+<br ><br >
+        <section>        
+            <div class="oldpapers-v3">Howdy 3</div>
+        </section>
+<br ><br >
 
 	</main>
         <hr >
