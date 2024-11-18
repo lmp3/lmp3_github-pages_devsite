@@ -8,7 +8,7 @@ Notes for mimeo.css (v1)
         https://en.wikipedia.org/wiki/Spirit_duplicator
         https://en.wikipedia.org/wiki/Mauveine
 
-    Perfered Color Model Used:
+    Preferred Color Model Used:
         hsla(hue, saturation, lightness, alpha)
         https://en.wikipedia.org/wiki/HSL_and_HSV
         https://web-toolbox.dev/en/tools/color-converter
@@ -41,7 +41,21 @@ Notes for mimeo.css (v1)
 */
 
 * {
-    box-sizing: border-box;  /* Required for only grid box, right? */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    /*  background-color: black;  Testing...  */
+    height: .01em;
+    background-image: linear-gradient(to top left, hsla(295, 97%, 31%, 0.7)/* 'Mauvine' */, hsla(36, 48%, 76%, 1))/* 'Old Paper' */;
+}
+
+body {
+
+    /*    filter: blur(90%); */
+    /*    background-repeat: no-repeat; */
+    
 }
 
 .flex-container {
@@ -99,19 +113,19 @@ Notes for mimeo.css (v1)
 .oldpapers-v1::before {
     background: hsla(37, 48%, 66%, 1);
     box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
-  right: 15px;
-  top: 0;
-  transform: rotate(-1deg);
-  z-index: -1;
+    right: 15px;
+    top: 0;
+    transform: rotate(-1deg);
+    z-index: -1;
 }
 
 .oldpapers-v1::after {
     background: hsla(36, 48%, 71%, 1);
     box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
-  top: 5px;
-  right: -5px;
-  transform: rotate(1deg);
-  z-index: -2;
+    top: 5px;
+    right: -5px;
+    transform: rotate(1deg);
+    z-index: -2;
 }
 
 /* Papers Version Two */
@@ -196,14 +210,6 @@ Notes for mimeo.css (v1)
     right: -5px;
     transform: rotate(-1deg);
     z-index: -2;
-}
-
-body {
-    height: 1px;
-    background-image: linear-gradient(to top left, hsla(295, 97%, 31%, 0.7), hsla(36, 48%, 76%, 1));
-    /*    filter: blur(90%); */
-    /*    background-repeat: no-repeat; */
-    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 hr {

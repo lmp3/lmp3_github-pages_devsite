@@ -8,7 +8,7 @@ Notes for mimeo.css (v1)
         https://en.wikipedia.org/wiki/Spirit_duplicator
         https://en.wikipedia.org/wiki/Mauveine
 
-    Perfered Color Model Used:
+    Preferred Color Model Used:
         hsla(hue, saturation, lightness, alpha)
         https://en.wikipedia.org/wiki/HSL_and_HSV
         https://web-toolbox.dev/en/tools/color-converter
@@ -20,7 +20,7 @@ Notes for mimeo.css (v1)
         Split Complementary to 'Mauvine' (green) 'CRT-Green'* = #029b50, hsla(151, 97%, 31%, 1)
             Split Complementary to 'CRT-Green'* (blue) 'CRT-Blue'* = #0983b0, hsla(196, 90%, 36%, 1)
             Split Complementary to 'CRT-Green'* (red) 'CRT-Red'* = #b00940, hsla(340, 90%, 36%, 1)
-    'Parchment' = hex #F1E9D2, hsla(45, 53%, 88%, 1) ['Parchemnt' is lighter than 'Old Paper']
+    'Parchment' = hex #F1E9D2, hsla(45, 53%, 88%, 1) ['Parchment' is lighter than 'Old Paper']
         5% lighter = #F7F2E5, hsla(43, 53%, 93%, 1)
         10% lighter = #FDFCF8, hsla(48, 55%, 98%, 1)
         5% darker = #EADFBE, hsla(45, 51%, 83%, 1)
@@ -41,7 +41,21 @@ Notes for mimeo.css (v1)
 */
 
 * {
-    box-sizing: border-box;  /* Required for only grid box, right? */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    /*  background-color: black;  Testing...  */
+    height: .01em;
+    background-image: linear-gradient(to top left, hsla(295, 97%, 31%, 0.7)/* 'Mauveine' */, hsla(36, 48%, 76%, 1))/* 'Old Paper' */;
+}
+
+body {
+
+    /*    filter: blur(90%); */
+    /*    background-repeat: no-repeat; */
+    
 }
 
 .flex-container {
@@ -196,14 +210,6 @@ Notes for mimeo.css (v1)
     right: -5px;
     transform: rotate(-1deg);
     z-index: -2;
-}
-
-body {
-    height: 1px;
-    background-image: linear-gradient(to top left, hsla(295, 97%, 31%, 0.7), hsla(36, 48%, 76%, 1));
-    /*    filter: blur(90%); */
-    /*    background-repeat: no-repeat; */
-    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 hr {
