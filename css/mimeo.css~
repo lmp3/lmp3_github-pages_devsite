@@ -20,7 +20,7 @@ Notes for mimeo.css (v1)
         Split Complementary to 'Mauvine' (green) 'CRT-Green'* = #029b50, hsla(151, 97%, 31%, 1)
             Split Complementary to 'CRT-Green'* (blue) 'CRT-Blue'* = #0983b0, hsla(196, 90%, 36%, 1)
             Split Complementary to 'CRT-Green'* (red) 'CRT-Red'* = #b00940, hsla(340, 90%, 36%, 1)
-    'Parchment' = hex #F1E9D2, hsla(45, 53%, 88%, 1) ['Parchemnt' is lighter than 'Old Paper']
+    'Parchment' = hex #F1E9D2, hsla(45, 53%, 88%, 1) ['Parchment' is lighter than 'Old Paper']
         5% lighter = #F7F2E5, hsla(43, 53%, 93%, 1)
         10% lighter = #FDFCF8, hsla(48, 55%, 98%, 1)
         5% darker = #EADFBE, hsla(45, 51%, 83%, 1)
@@ -48,7 +48,7 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
     /*  background-color: black;  Testing...  */
     height: .01em;
-    background-image: linear-gradient(to top left, hsla(295, 97%, 31%, 0.7)/* 'Mauvine' */, hsla(36, 48%, 76%, 1))/* 'Old Paper' */;
+    background-image: linear-gradient(to top left, hsla(295, 97%, 31%, 0.7)/* 'Mauveine' */, hsla(36, 48%, 76%, 1))/* 'Old Paper' */;
 }
 
 body {
@@ -56,6 +56,11 @@ body {
     /*    filter: blur(90%); */
     /*    background-repeat: no-repeat; */
     
+}
+
+img {
+    display: block;
+    max-width: 100%;  /*  Good Practice, as why would stretched out images would ever normally be desired. */
 }
 
 .flex-container {

@@ -58,6 +58,11 @@ body {
     
 }
 
+img {
+    display: block;
+    max-width: 100%;  /*  Good Practice, as why would stretched out images would ever normally be desired? */
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
