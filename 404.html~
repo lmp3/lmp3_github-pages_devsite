@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="Louis Morrison Privette III">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>404 - Page Not Found</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💾</text></svg>"> <!-- research this is instructor approved. -->
     <link rel="stylesheet" href="css/mimeo.css">
@@ -13,6 +13,13 @@
 	<header>
         <h1>Page Not Found</h1>
 		<nav>
+		    <ul class="nav-list">
+		        <li><a href="#">Home</a></li>
+		        <li><a href="#">Info</a></li>
+		        <li><a href="#">Folio</a></li>
+		        <li><a href="#">FUN!!!</a></li>
+		        <li><a href="#">Sponsor</a></li>
+		    </ul>
 		</nav>
 	</header>
         <hr >
