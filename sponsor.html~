@@ -25,11 +25,20 @@
         </header>
             <main>
                 <article>
-                    <h2>Stuff</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <h2>More Stuff</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </article>
+                <hr >
+                    <section>
+                        <h2></h2>
+                        <h3></h3>
+                        <strong>If you like my work and want to support me in creating more stuff or help improve my quality of life, there are many options to help me out.</strong>&nbsp;<em>Some options don't even require giving me anything directly.</em>
+                        <br>
+                        <h3>Using these referal links gets me credit with these vendors:</h3>
+                        <ul>
+                            <li>Digital Ocean Hosting: <a href="https://m.do.co/c/7ddb27d8b0b1">https://m.do.co/c/7ddb27d8b0b1</a>(Everyone you refer gets $200 in credit over 60 days. Once they’ve spent $25 with us, you'll get $25. )</li>
+                            <li>Hover Domain Registrar:&nbsp;<a href="https://hover.com/iRPWPcFm">https://hover.com/iRPWPcFm</a>&nbsp;(Gives you $2 discount on domain purchase.)</li>
+                        </ul>
+                    </section>
+                    <hr >
+		        </article>
             </main>
         <footer>
             <ul>
@@ -43,7 +52,7 @@
                 <li><a href="https://www.linkedin.com/in/louis-m-privette-iii/">Linked-in</a></li>
             </ul>
             <article class="cc">
-                <em>Unless Otherwise Noted</em>: This work by <a href="http://www.lmp3.dev">LMP3</a> is licensed under <a href="copyright.html">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.</a><img src="assets/cc.svg" alt="Creative Commons icon"><img src="assets/by.svg" alt="Attribution Given icon"><img src="assets/nc.svg?" alt="Noncommercial icon"><img src="assets/sa.svg" alt="Share Alike icon">
+                <em>Unless Otherwise Noted</em>: This work by <a href="http://www.lmp3.dev">LMP3</a> is licensed under <a href="copyright.html">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a><img src="assets/cc.svg" alt="Creative Commons icon"><img src="assets/by.svg" alt="Attribution Given icon"><img src="assets/nc.svg?" alt="Noncommercial icon"><img src="assets/sa.svg" alt="Share Alike icon">&nbsp;2024.
             </article>
 	    </footer>
     </body>

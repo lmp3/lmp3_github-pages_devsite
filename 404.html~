@@ -25,8 +25,9 @@
         </header>
             <main>
                 <article>
+                <hr >
                     <section>
-                        <h2>Classic...</h2p>
+                        <h2>Classic...</h2>
                         <h3>This is a 404 Server Error.</h2>
                         <p><strong>But all is not lost!</strong></p>
                         <br>
@@ -37,6 +38,7 @@
                             <li>The address (URL) may have been typed incorrectly.</li>
                         </ul>
                     </section>
+                    <hr >
 		        </article>
             </main>
         <footer>
