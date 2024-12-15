@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Copyright - LMP3.DEV</title>
+        <title>Index - LMP3.DEV</title>
         <link rel="stylesheet" href="css/retro-mimeo.css">
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💾</text></svg>"> <!-- Emoji sourced icon. Unable to get it's styles to work in the css sheet nor use '"' instead of '%22' in most cases. -->
         <link rel="copyright" href="copyright.html">
@@ -11,13 +11,13 @@
         <header>
             <nav class="navbar">
                 <hgroup>
-                    <h1>Copyright</h1>
-                    <p>Intelectial Property Details</p>
+                    <h1>Index</h1>
+                    <p>Index is Where the Home is</p>
                 </hgroup>
 		    <ul>
+		        <li>INDEX</li>
 		        <li><a href="folio.html">Folio</a></li>
 		        <li><a href="fun.html">FUN!!!</a></li>
-		        <li><a href="index.html">Index</a></li>
 		        <li><a href="info.html">Info</a></li>
 		        <li><a href="sponsor.html">Sponsor</a></li>
 		    </ul>
@@ -25,9 +25,10 @@
         </header>
             <main>
                 <article>
-                    <section>
-                    <h3>On Copyright</h3>
-                    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>:&nbsp;Links to specific details at CreativeCommons.Org.</section>
+                    <h2>Stuff</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2>More Stuff</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </article>
             </main>
         <footer>
@@ -42,9 +43,8 @@
                 <li><a href="https://www.linkedin.com/in/louis-m-privette-iii/">Linked-in</a></li>
             </ul>
             <article class="cc">
-                <em>Unless Otherwise Noted</em>: This work by <a href="http://www.lmp3.dev">LMP3</a> is licensed under <a href="copyright.html">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a><img src="assets/cc.svg" alt="Creative Commons icon"><img src="assets/by.svg" alt="Attribution Given icon"><img src="assets/nc.svg?" alt="Noncommercial icon"><img src="assets/sa.svg" alt="Share Alike icon">&nbsp;2024.
+                <em>Unless Otherwise Noted</em>: This work by <a href="http://www.lmp3.dev">LMP3</a> is licensed under <a href="copyright.html">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.</a><img src="assets/cc.svg" alt="Creative Commons icon"><img src="assets/by.svg" alt="Attribution Given icon"><img src="assets/nc.svg?" alt="Noncommercial icon"><img src="assets/sa.svg" alt="Share Alike icon">2024
             </article>
 	    </footer>
     </body>
 </html>
-

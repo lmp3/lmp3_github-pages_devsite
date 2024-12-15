@@ -12,13 +12,13 @@
 <body>
 	<header>
         <h1>Page Not Found</h1>
-		<nav>
-		    <ul class="nav-list">
-		        <li><a href="#">Home</a></li>
-		        <li><a href="#">Info</a></li>
-		        <li><a href="#">Folio</a></li>
-		        <li><a href="#">FUN!!!</a></li>
-		        <li><a href="#">Sponsor</a></li>
+		<nav class="oldpapers-v2">
+		    <ul class="navbar">
+		        <li><a href="index.html">Home</a></li>
+		        <li><a href="folio.html">Folio</a></li>
+		        <li><a href="fun.html">FUN!!!</a></li>
+		        <li><a href="info.html">Info</a></li>
+		        <li><a href="sponsor.html">Sponsor</a></li>
 		    </ul>
 		</nav>
 	</header>

@@ -14,8 +14,8 @@ Notes for mimeo.css (v1)
         https://web-toolbox.dev/en/tools/color-converter
 
     'Mauveine' = hex #8D029B, hsla(295, 97%, 31%, 1)
-        Analogous to 'Mauvine' (reder) = #9B015C, hsla(325, 99%, 31%, 1) [Visited Links?]
-        Analogous to 'Mauvine' (bluer) = #40019B, hsla(265, 99%, 31%, 1) [Links?]
+        Analogous to 'Mauvine' (red-er) = #9B015C, hsla(325, 99%, 31%, 1) [Visited Links?]
+        Analogous to 'Mauvine' (blue-er) = #40019B, hsla(265, 99%, 31%, 1) [Links?]
         Split Complementary to 'Mauvine' (red) = #9b1302, hsla(6, 97%, 31%, 1)
         Split Complementary to 'Mauvine' (green) 'CRT-Green'* = #029b50, hsla(151, 97%, 31%, 1)
             Split Complementary to 'CRT-Green'* (blue) 'CRT-Blue'* = #0983b0, hsla(196, 90%, 36%, 1)
@@ -46,17 +46,18 @@ Notes for mimeo.css (v1)
 
 body {
     font-family: "Lucida Console", "Courier New", monospace;
-    /*  background-color: black;  Testing...  */
+    display: flex;
+    justify-content: center;
     height: .01em;
-    background-image: linear-gradient(to top left, hsla(295, 97%, 31%, 0.7)/* 'Mauveine' */, hsla(36, 48%, 76%, 1))/* 'Old Paper' */;
+    background-image: linear-gradient(to top left, hsla(295, 97%, 31%, 0.7)/* 'Mauveine' */, hsla(36, 48%, 76%, 1))/* 'Old
 }
 
-body {
+/*  body {
 
-    /*    filter: blur(90%); */
-    /*    background-repeat: no-repeat; */
+    filter: blur(90%);
+    background-repeat: no-repeat;
     
-}
+}  */
 
 img {
     display: block;
@@ -246,7 +247,7 @@ h1 {
     box-shadow: inset 0 0 10px hsla(295, 97%, 31%, 1);
 }
 
-.nav-list {
+.navbar {
     display: flex;
     /*  flex-wrap: wrap;  */
     justify-content: center;
@@ -257,10 +258,23 @@ h1 {
     font-weight: bold;
 }
 
-.nav-list li {
+nav {
+    max-width: 45%;
+    min-width: 35%
+}
+
+.navbar a {
+    color: hsl(295, 97%, 31%);  /* mauveine' - #8D029B - hsl(295, 97%, 31%) */
+}
+
+.navbar li {
     flex-grow: 0;
     flex-shrink: 1;
 }
+
+.navbar li:hover {
+    background-color: #0099cc;
+    }
 
 section {
     color: hsl(295, 97%, 31%);  /* mauveine' - #8D029B - hsl(295, 97%, 31%) */
@@ -268,7 +282,7 @@ section {
 
 footer {
     background-color: hsla(36, 48%, 76%, 1);
-    padding: 10px;  /* Need to convert to percent for responsice / flexbox / fliud design, */
+    padding: 10px;  /* Need to convert to percent for response / flexbox / fluid design, */
     text-align: center;
     color: hsla(295, 97%, 31%, 1);
     width: 95%;  /* Add a max-width property too. */

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/_-testing-_.css">
+        <title>_-TEST PAGE-_</title>
+        <style></style>
+    </head>
+    <body class="container">
+        <header>
+            <nav class="navbar">
+                <hgroup>
+                    <h1>Index</h1>
+                    <p>Index is Where the Home is</p>
+                </hgroup>
+		    <ul>
+		        <li>Index</li>
+		        <li><a href="folio.html">Folio</a></li>
+		        <li><a href="fun.html">FUN!!!</a></li>
+		        <li><a href="info.html">Info</a></li>
+		        <li><a href="sponsor.html">Sponsor</a></li>
+		    </ul>
+            </nav>
+        </header>
+            <main>
+                <article>
+                    <h2>Stuff</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2>More Stuff</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </article>
+            </main>
+        <footer>
+            <ul>
+                <li><img src="assets/bluesky_logo.svg" alt="Bluesky Social Logo. Source: https://commons.wikimedia.org/wiki/File:Bluesky_Logo.svg" width="20" height="20"></li>
+                <li><a href="https://bsky.app/profile/lmp3.dev">Bluesky: @lmp3.dev</a></li>
+                <li>|</li>
+                <li><img src="assets/github_invertocat_dark.png" alt="GitHub Logo. Source: https://brand.github.com/foundations/logo" width="20" height="20"></li>
+                <li><a href="https://github.com/lmp3">GitHub</a></li>
+                <li>|</li>
+                <li><img src="assets/linked-in_logo.png" alt="Linked-In Logo. Source: https://brand.linkedin.com/downloads" width="20" height="20"></li>
+                <li><a href="https://www.linkedin.com/in/louis-m-privette-iii/">Linked-in</a></li>
+            </ul>
+            <article class="cc">
+                This work by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://www.lmp3.dev">LMP3</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="">
+            </article>
+	    </footer>
+    </body>
+</html>

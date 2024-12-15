@@ -1,0 +1,116 @@
+/* 
+Notes for retro-mimeo.css (v1)
+
+    Theme Design by LMP3 for WWW.LMP3.DEV
+
+    Style Inspired by the Mimeograph / Spirit Duplicator
+        https://en.wikipedia.org/wiki/Mimeograph
+        https://en.wikipedia.org/wiki/Spirit_duplicator
+        https://en.wikipedia.org/wiki/Mauveine
+
+    Preferred Color Model Used:
+        hsla(hue, saturation, lightness, alpha)
+        https://en.wikipedia.org/wiki/HSL_and_HSV
+        https://web-toolbox.dev/en/tools/color-converter
+
+    'Mauveine' = hex #8D029B, hsla(295, 97%, 31%, 1)
+        Analogous to 'Mauvine' (red-er) = #9B015C, hsla(325, 99%, 31%, 1) [Visited Links?]
+        Analogous to 'Mauvine' (blue-er) = #40019B, hsla(265, 99%, 31%, 1) [Links?]
+        Split Complementary to 'Mauvine' (red) = #9b1302, hsla(6, 97%, 31%, 1)
+        Split Complementary to 'Mauvine' (green) 'CRT-Green'* = #029b50, hsla(151, 97%, 31%, 1)
+            Split Complementary to 'CRT-Green'* (blue) 'CRT-Blue'* = #0983b0, hsla(196, 90%, 36%, 1)
+            Split Complementary to 'CRT-Green'* (red) 'CRT-Red'* = #b00940, hsla(340, 90%, 36%, 1)
+    'Parchment' = hex #F1E9D2, hsla(45, 53%, 88%, 1) ['Parchment' is lighter than 'Old Paper']
+        5% lighter = #F7F2E5, hsla(43, 53%, 93%, 1)
+        10% lighter = #FDFCF8, hsla(48, 55%, 98%, 1)
+        5% darker = #EADFBE, hsla(45, 51%, 83%, 1)
+        10% darker = #E4D5AB, hsla(44, 51%, 78%, 1)
+    'Old Paper' = hex #E0C9A6, hsla(36, 48%, 76%, 1)
+        5% lighter = #E6D4B8, hsla(37, 48%, 81%, 1)
+        10% lighter = #EDDFCB, hsla(35, 49%, 86%, 1)
+        5% darker = #D9BD93, hsla(36, 48%, 71%, 1)
+        10% darker = #D2B280, hsla(37, 48%, 66%, 1)
+    'Rosy Brown' = #BC8F8F, hsla(0, 25%, 65%, 1) [Paper edges]
+    'Tuscan Brown' = #6F4E37, hsla(25, 34%, 33%, 1)
+    
+    '???parchment_mistake' = hex #FF5733, hsla(11, 80%, 60%, 1) error, interesting hex/hsla color though, peach?
+    
+    *Color names I made up.
+    °
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: hsla(36, 48%, 76%, 1);  /*  'Old Paper' - #E0C9A6  */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5em;
+
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    /*  margin: 0;
+    padding: 0;  */
+}
+
+.nav-list a {
+    color: hsl(295, 97%, 31%);  /*  'Mauveine' - #8D029B  */
+    text-decoration: none;
+    padding: .5em;
+
+}
+
+.nav-list li {
+    flex-grow: 0;
+    flex-shrink: 1;
+    padding: .5em;
+}
+
+.nav-list a:hover {
+    background-color: #0099cc;
+    }
+
+ul {
+    padding-right: 1em;
+    margin-right: 1em;
+}
+
+hgroup {
+    text-align: left;
+    padding-left: 1.5em;
+    border-left: 1em solid hsl(295, 97%, 31%);  /* Mauveine' - #8D029B  */
+}
+
+hgroup h1 {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+hgroup p {
+    margin: 0;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    background-color: hsla(36, 48%, 76%, 1);  /*  'Old Paper' - #E0C9A6  */
+    flex-direction: column;
+}
