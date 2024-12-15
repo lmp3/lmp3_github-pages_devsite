@@ -44,7 +44,7 @@ Notes for retro-mimeo.css (v1)
 }
 
 body {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Courier New", monospace; /*  "Lucida Console"  */
     background-image: linear-gradient(to top left, hsla(295, 97%, 31%, 0.7)/* 'Mauveine' */, hsla(36, 48%, 76%, 1));/* 'Old Paper' */
     background-repeat: repeat;
 }
@@ -86,6 +86,17 @@ h3 {
     font-variant: small-caps;
     color: hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */
     text-shadow: 2px 2px 4px hsla(0, 25%, 65%, 1);  /*  'Rosy Brown' = #BC8F8F  */
+}
+
+hr {
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: outset;
+    border-width: 0.2rem;
+    color: hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */
 }
 
 p {
@@ -213,7 +224,7 @@ footer article {
 }
 
 iframe {
-    border: .1rem outset hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */
+    border: .3rem outset hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */
     padding: 12px;
     background-image: linear-gradient(to top left, hsla(36, 48%, 76%, 1)/* 'Old Paper' */, hsla(295, 97%, 31%, 0.7));/* 'Mauveine' */
     border-radius: 20px;

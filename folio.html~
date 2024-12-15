@@ -25,20 +25,26 @@
         </header>
             <main>
                 <article>
+                    <hr >
                     <section>
-                        <h2>Wesites</h2>
+                        <h2>Web Development</h2>
                             <h3>www.lmp3.dev - Version 1</h3>
                             <strong>Class Final Project - CIS-1320 FA24 OCC)</strong>
-                            <br >Future link to archive of current site.
+                            <br >A lovingly handcrafted artisanal website made of pure HTML5 & CSS3 (no JavaScript) using only a basic text editor.
+                            <br >[Future link to archive of current site.]
+                            <br >&nbsp;
                     </section>
+                    <hr >
                     <section>
                         <h2>Videography</h2>
                             <h3>Arrghh!!!</h3>
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/LRtHSVeThxE?si=kB8VQRcast33f2c8" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 <br >
                                 <strong>Class Project 2 - Two People and a Box (PHO-1800 FA24 OCC)</strong>
-                                <br >Co-wrote, Crew - Boom, and Editor.
+                                <br >Co-writer, Crew - Boom Operator, and Editor.
+                                <br >&nbsp;
                     </section>
+                    <hr >
                 </article>
             </main>
         <footer>
