@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS"> <!-- Say No to Keyword abuse. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Folio - LMP3.DEV</title>
         <link rel="stylesheet" href="css/retro-mimeo.css">
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💾</text></svg>"> <!-- Emoji sourced icon. Unable to get it's styles to work in the css sheet nor use '"' instead of '%22' in most cases. -->
@@ -29,9 +31,10 @@
                     <section>
                         <h2>Web Development</h2>
                             <h3>www.lmp3.dev - Version 1</h3>
-                            <strong>Class Final Project - CIS-1320 FA24 OCC)</strong>
-                            <br >A lovingly handcrafted artisanal website made of pure HTML5 & CSS3 (no JavaScript) using only a basic text editor.
+                            <strong>Class Final Project - CIS-1320 FALL 2024 OCC)</strong>
                             <br >[Future link to archive of current site.]
+                            <br >A lovingly handcrafted artisanal website made of pure HTML5 & CSS3 (no JavaScript) coded using only a basic text editor.
+                            <br >Grading Rubric Used: <a href="assets/gradingrubric_f2024.pdf">gradingrubric_f2024.pdf</a>.
                             <br >&nbsp;
                     </section>
                     <hr >
@@ -40,7 +43,7 @@
                             <h3>Arrghh!!!</h3>
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/LRtHSVeThxE?si=kB8VQRcast33f2c8" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 <br >
-                                <strong>Class Project 2 - Two People and a Box (PHO-1800 FA24 OCC)</strong>
+                                <strong>Class Project 2 - Two People and a Box (PHO-1800 FALL 2024 OCC)</strong>
                                 <br >Co-writer, Crew - Boom Operator, and Editor.
                                 <br >&nbsp;
                     </section>
@@ -60,6 +63,9 @@
             </ul>
             <article class="cc">
                 <em>Unless Otherwise Noted</em>: This work by <a href="http://www.lmp3.dev">LMP3</a> is licensed under <a href="copyright.html">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a><img src="assets/cc.svg" alt="Creative Commons icon"><img src="assets/by.svg" alt="Attribution Given icon"><img src="assets/nc.svg?" alt="Noncommercial icon"><img src="assets/sa.svg" alt="Share Alike icon">&nbsp;2024.
+            </article>
+            <article>
+                <a class="top" href="#top">^Top^</a>
             </article>
 	    </footer>
     </body>
