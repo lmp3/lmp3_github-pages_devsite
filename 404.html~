@@ -12,7 +12,7 @@
     <body class="container">
         <header>
             <nav class="navbar">
-                <hgroup>
+                <hgroup id="top">
                     <h1>404</h1>
                     <p>Page Not Found</p>
                 </hgroup>
@@ -20,7 +20,7 @@
 		        <li><a href="folio.html">Folio</a></li>
 		        <li><a href="fun.html">FUN!!!</a></li>
 		        <li><a href="index.html">Index</a></li>
-		        <li><a href="info.html">Info</a></li>
+		        <li><a href="info.html">Info</a></li> -->
 		        <li><a href="sponsor.html">Sponsor</a></li>
 		    </ul>
             </nav>

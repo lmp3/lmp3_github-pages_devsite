@@ -314,4 +314,120 @@ iframe {
     padding: 12px;
     background-image: linear-gradient(to top left, hsla(36, 48%, 76%, 1)/* 'Old Paper' */, hsla(295, 97%, 31%, 0.7));/* 'Mauveine' */
     border-radius: 20px;
-}   
+}
+
+/* Messy stacks of old browning paper... */
+
+.oldpapers-v1 {
+    background: hsla(36, 48%, 76%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1);  
+    padding: 30px;
+    position: relative;
+}
+
+.oldpapers-v1,
+.oldpapers-v1::before,
+.oldpapers-v1::after {
+}
+
+.oldpapers-v1::before,
+.oldpapers-v1::after {
+    position: absolute;
+    height: 95%;
+    width: 99%;
+}
+
+.oldpapers-v1::before {
+    background: hsla(37, 48%, 66%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    right: 15px;
+    top: 0;
+    transform: rotate(-1deg);
+    z-index: -1;
+}
+
+.oldpapers-v1::after {
+    background: hsla(36, 48%, 71%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    top: 5px;
+    right: -5px;
+    transform: rotate(1deg);
+    z-index: -2;
+}
+
+/* Papers Version Two */
+.oldpapers-v2 {
+    background: hsla(36, 48%, 76%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1);  
+    padding: 30px;
+    position: relative;
+}
+
+.oldpapers-v2,
+.oldpapers-v2::before,
+.oldpapers-v2::after {
+}
+
+.oldpapers-v2::before,
+.oldpapers-v2::after {
+    position: absolute;
+    height: 95%;
+    width: 99%;
+}
+
+.oldpapers-v2::before {
+    background: hsla(37, 48%, 66%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    right: 3px;
+    top: 3px;
+    transform: rotate(-1deg);
+    z-index: -1;
+}
+
+.oldpapers-v2::after {
+    background: hsla(36, 48%, 71%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    top: 1px;
+    right: 10px;
+    transform: rotate(1deg);
+    z-index: -2;
+}
+
+/* Version Three */
+.oldpapers-v3 {
+    background: hsla(36, 48%, 76%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1);  
+    padding: 30px;
+    position: relative;
+}
+
+.oldpapers-v3,
+.oldpapers-v3::before,
+.oldpapers-v3::after {
+}
+
+.oldpapers-v3::before,
+.oldpapers-v3::after {
+    position: absolute;
+    height: 95%;
+    width: 99%;
+}
+
+.oldpapers-v3::before {
+    background: hsla(37, 48%, 66%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    right: 15px;
+    top: 0;
+    transform: rotate(1deg);
+    z-index: -1;
+}
+
+.oldpapers-v3::after {
+    background: hsla(36, 48%, 71%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    top: 5px;
+    right: -5px;
+    transform: rotate(-1deg);
+    z-index: -2;
+}
+

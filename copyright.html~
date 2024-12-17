@@ -20,7 +20,7 @@
 		        <li><a href="folio.html">Folio</a></li>
 		        <li><a href="fun.html">FUN!!!</a></li>
 		        <li><a href="index.html">Index</a></li>
-		        <li><a href="info.html">Info</a></li>
+		        <li><a href="info.html">Info</a></li> -->
 		        <li><a href="sponsor.html">Sponsor</a></li>
 		    </ul>
             </nav>
@@ -30,7 +30,7 @@
                     <hr >
                     <section>
                     <h3>On Copyright</h3>
-                    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>:&nbsp;Links to specific IP details at CreativeCommons.Org.</section>
+                    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>:&nbsp;Links to specific IP details at CreativeCommons.org.</section>
                     <hr >
                 </article>
             </main>
