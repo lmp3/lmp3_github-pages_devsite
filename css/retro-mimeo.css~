@@ -59,7 +59,7 @@ img {
     padding: .3rem;
     background-image: linear-gradient(to top left, hsla(36, 48%, 76%, 1)/* 'Old Paper' */, hsla(295, 97%, 31%, 0.7));/* 'Mauveine' */
     border-radius: 12px;
-    transition: width 2s, height 2s, transform 2s;
+    transition: width 3s, height 3s, transform 3s;
 }
 
 .cavy:hover {
@@ -143,6 +143,7 @@ table {
     border: none;
     width: 60%;
     margin: auto;
+    border-spacing: 0;
 }
 
 caption {

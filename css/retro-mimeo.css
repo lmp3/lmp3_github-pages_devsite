@@ -143,6 +143,19 @@ table {
     border: none;
     width: 60%;
     margin: auto;
+    border-spacing:0;
+}
+
+.border table {
+    border: 2px solid hsla(265, 99%, 31%, 1);  /*  'Mauveine (blue-er)' = #40019B  */
+}
+
+.border tr {
+    border: 2px solid hsla(265, 99%, 31%, 1);  /*  'Mauveine (blue-er)' = #40019B  */
+}
+
+.border td {
+    border: 2px solid hsla(265, 99%, 31%, 1);  /*  'Mauveine (blue-er)' = #40019B  */
 }
 
 caption {

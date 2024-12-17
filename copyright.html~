@@ -12,7 +12,7 @@
     <body class="container">
         <header>
             <nav class="navbar">
-                <hgroup>
+                <hgroup id="top">
                     <h1>Copyright</h1>
                     <p>Intelectial Property Details</p>
                 </hgroup>
