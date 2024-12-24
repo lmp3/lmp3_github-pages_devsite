@@ -1,0 +1,433 @@
+/* 
+Notes for retro-mimeo.css (v1)
+
+    Theme Design by LMP3 for WWW.LMP3.DEV
+    Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International 2024.
+
+    Style Inspired by the Mimeograph / Spirit Duplicator
+        https://en.wikipedia.org/wiki/Mimeograph
+        https://en.wikipedia.org/wiki/Spirit_duplicator
+        https://en.wikipedia.org/wiki/Mauveine
+
+    Preferred Color Model Used:
+        hsla(hue, saturation, lightness, alpha)
+        https://en.wikipedia.org/wiki/HSL_and_HSV
+        https://web-toolbox.dev/en/tools/color-converter
+
+    'Mauveine' = hex #8D029B, hsla(295, 97%, 31%, 1)
+        Analogous to 'Mauvine' (red-er) = #9B015C, hsla(325, 99%, 31%, 1) [Visited Links?]
+        Analogous to 'Mauvine' (blue-er) = #40019B, hsla(265, 99%, 31%, 1) [Links?]
+        Split Complementary to 'Mauvine' (red) = #9b1302, hsla(6, 97%, 31%, 1)
+        Split Complementary to 'Mauvine' (green) 'CRT-Green'* = #029b50, hsla(151, 97%, 31%, 1)
+            Split Complementary to 'CRT-Green'* (blue) 'CRT-Blue'* = #0983b0, hsla(196, 90%, 36%, 1)
+            Split Complementary to 'CRT-Green'* (red) 'CRT-Red'* = #b00940, hsla(340, 90%, 36%, 1)
+    'Parchment' = hex #F1E9D2, hsla(45, 53%, 88%, 1) ['Parchment' is lighter than 'Old Paper']
+        5% lighter = #F7F2E5, hsla(43, 53%, 93%, 1)
+        10% lighter = #FDFCF8, hsla(48, 55%, 98%, 1)
+        5% darker = #EADFBE, hsla(45, 51%, 83%, 1)
+        10% darker = #E4D5AB, hsla(44, 51%, 78%, 1)
+    'Old Paper' = hex #E0C9A6, hsla(36, 48%, 76%, 1)
+        5% lighter = #E6D4B8, hsla(37, 48%, 81%, 1)
+        10% lighter = #EDDFCB, hsla(35, 49%, 86%, 1)
+        5% darker = #D9BD93, hsla(36, 48%, 71%, 1)
+        10% darker = #D2B280, hsla(37, 48%, 66%, 1)
+    'Rosy Brown' = #BC8F8F, hsla(0, 25%, 65%, 1) [Paper edges]
+    'Tuscan Brown' = #6F4E37, hsla(25, 34%, 33%, 1) [Paper edges]
+    
+    *Color names I made up.
+    °
+    
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Courier New", monospace; /*  Add later "Lucida Console"  */
+    background-image: linear-gradient(to top left, hsla(295, 97%, 31%, 0.7)/* 'Mauveine' */, hsla(36, 48%, 76%, 1));/* 'Old Paper' */
+    background-repeat: repeat;
+}
+
+img {
+    display: block;
+    max-width: 100%;  /*  Good Practice, as why would stretched out images would ever normally be desired? */
+}
+
+.cavy {
+    border: .3rem outset hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */
+    padding: .3rem;
+    background-image: linear-gradient(to top left, hsla(36, 48%, 76%, 1)/* 'Old Paper' */, hsla(295, 97%, 31%, 0.7));/* 'Mauveine' */
+    border-radius: 12px;
+    transition: width 3s, height 3s, transform 3s;
+}
+
+.cavy:hover {
+    width: 255px;
+    height: 255px;
+    transform: rotate(360deg);
+}
+
+figcaption {
+    color: hsla(295, 97%, 31%, 1);  /*  'Mauveine' - #8D029B  */
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+nav {
+    margin: 1rem;
+}
+
+main {
+    margin: 1rem;
+}
+
+section {
+    color: hsla(295, 97%, 31%, 1);  /*  'Mauveine' - #8D029B  */
+}
+
+ol.first-gen  {
+    list-style-type: normal;
+}
+
+ol.second-gen {
+    list-style-type: upper-roman;
+}
+
+ol.third-gen {
+    list-style-type: lower-roman;
+}
+
+a {
+    color: hsla(265, 99%, 31%, 1);  /*  'Mauveine (blue-er)' = #40019B  */
+}
+
+a:visited {
+    color: hsla(325, 99%, 31%, 1);  /*  'Mauvine (red-er)' = #9B015C  */
+}
+
+h2 {
+    font-weight: bold;
+    font-variant: small-caps;
+    color: hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */
+    text-shadow: 2px 2px 4px hsla(0, 25%, 65%, 1);  /*  'Rosy Brown' = #BC8F8F  */
+}
+
+h3 {
+    font-weight: bold;
+    font-variant: small-caps;
+    color: hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */
+    text-shadow: 2px 2px 4px hsla(0, 25%, 65%, 1);  /*  'Rosy Brown' = #BC8F8F  */
+}
+
+hr {
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: outset;
+    border-width: 0.2rem;
+    color: hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */
+}
+
+p {
+    columns: 2;
+    column-rule-style: solid;
+    column-gap: 3rem;
+    text-align: justify;
+    color: hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */
+}
+
+table {
+    border: none;
+    width: 60%;
+    margin: auto;
+    border-spacing:0;
+}
+
+.border table {
+    border: 2px solid hsla(265, 99%, 31%, 1);  /*  'Mauveine (blue-er)' = #40019B  */
+}
+
+.border tr {
+    border: 2px solid hsla(265, 99%, 31%, 1);  /*  'Mauveine (blue-er)' = #40019B  */
+}
+
+.border td {
+    border: 2px solid hsla(265, 99%, 31%, 1);  /*  'Mauveine (blue-er)' = #40019B  */
+}
+
+caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */
+    text-shadow: 2px 2px 4px hsla(0, 25%, 65%, 1);  /*  'Rosy Brown' = #BC8F8F  */
+}
+
+th {
+    background-color: hsla(36, 48%, 76%, 1);/* 'Old Paper' */
+    box-shadow: inset 0 0 .5rem hsla(25, 34%, 33%, 1);  /*  'Tuscan Brown' = #6F4E37  */
+    font-weight: bold;
+    font-variant: small-caps;
+    border-bottom: .3rem solid hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */
+    text-shadow: 2px 2px 4px hsla(0, 25%, 65%, 1);  /*  'Rosy Brown' = #BC8F8F  */
+}
+ 
+td {
+    vertical-align: top;
+    padding: 10px;
+    font-weight: bold;
+}
+
+footer {
+    margin: 1rem;
+    color: hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */
+}
+
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+footer li{
+    list-style: none;
+    font-weight: bold;
+    font-variant: small-caps;
+    padding: .5rem;
+    color: hsla(295, 97%, 31%, 1);  /*  'Mauveine' - #8D029B  */
+}
+
+footer a {
+    color: hsla(265, 99%, 31%, 1);  /*  'Mauveine (blue-er)' = #40019B  */
+}
+
+footer article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.top {
+    color: hsla(295, 97%, 31%, 1);  /*  'Mauveine' - #8D029B  */;
+    background-color: hsla(45, 53%, 88%, 1);  /*  'Parchment' = hex #F1E9D2  */
+    box-shadow: inset 0 0 1rem hsla(0, 25%, 65%, 1);  /*  'Rosy Brown' = #BC8F8F  */
+    font-weight: bold;
+    font-variant: small-caps;
+    padding: .5rem;
+    margin: .3rem
+    }
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.container nav {
+    background-color: hsla(36, 48%, 76%, 1);  /*  'Old Paper' - #E0C9A6  */
+    box-shadow: inset 0 0 .5rem hsla(25, 34%, 33%, 1);  /*  'Tuscan Brown' = #6F4E37  */
+    flex-direction: row;
+}
+
+.container main {
+    background-color: hsla(45, 53%, 88%, 1);  /*  'Parchment' = hex #F1E9D2  */
+    box-shadow: inset 0 0 1rem hsla(0, 25%, 65%, 1);  /*  'Rosy Brown' = #BC8F8F  */
+    padding: 1rem;
+}
+
+.container footer {
+    background-color: hsla(36, 48%, 76%, 1);  /*  'Old Paper' - #E0C9A6  */
+    box-shadow: inset 0 0 .5rem hsla(25, 34%, 33%, 1);  /*  'Tuscan Brown' = #6F4E37  */
+    
+}
+
+.navbar {
+    padding: 1rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.navbar a {
+    color: hsla(265, 99%, 31%, 1);  /*  'Mauveine (blue-er)' = #40019B  */
+    text-shadow: 2px 2px 4px hsla(0, 25%, 65%, 1);  /*  'Rosy Brown' = #BC8F8F  */
+
+}
+
+.navbar a:hover {
+    color: hsla(325, 99%, 31%, 1);  /* 'Mauvine (red-er)' = #9B015C  */
+    text-shadow: 2px 2px 4px hsla(25, 34%, 33%, 1) /*  'Tuscan Brown' = #6F4E37  */
+}
+
+.navbar li {
+    list-style: none;
+    padding: 1rem;
+    background-color: hsla(45, 53%, 88%, 1);  /*  'Parchment' = hex #F1E9D2  */
+    box-shadow: inset 0 0 1rem hsla(0, 25%, 65%, 1);  /*  'Rosy Brown' = #BC8F8F  */
+    margin: .5rem;
+    color: hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar hgroup {
+    text-align: left;
+    padding-left: 16px;
+    border-left: 10px solid hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */;
+}
+
+.navbar hgroup h1 {
+    margin-bottom: 0;
+    color: hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */
+    text-shadow: 2px 2px 4px hsla(25, 34%, 33%, .7);  /*  'Tuscan Brown' = #6F4E37  */
+}
+
+.navbar hgroup p {
+    margin: 0;
+    font-weight: bold;
+    color: hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */
+}
+
+.cc img {
+    height:22px!important;
+    margin-left:3px;
+    vertical-align:text-bottom;
+}
+
+.cc a {
+    display:inline-block;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+iframe {
+    border: .3rem outset hsla(295, 97%, 31%, 1);  /* 'Mauveine' - #8D029B  */
+    padding: 12px;
+    background-image: linear-gradient(to top left, hsla(36, 48%, 76%, 1)/* 'Old Paper' */, hsla(295, 97%, 31%, 0.7));/* 'Mauveine' */
+    border-radius: 20px;
+}
+
+/* Messy stacks of old browning paper... */
+
+.oldpapers-v1 {
+    background: hsla(36, 48%, 76%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1);  
+    padding: 30px;
+    position: relative;
+}
+
+.oldpapers-v1,
+.oldpapers-v1::before,
+.oldpapers-v1::after {
+}
+
+.oldpapers-v1::before,
+.oldpapers-v1::after {
+    position: absolute;
+    height: 95%;
+    width: 99%;
+}
+
+.oldpapers-v1::before {
+    background: hsla(37, 48%, 66%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    right: 15px;
+    top: 0;
+    transform: rotate(-1deg);
+    z-index: -1;
+}
+
+.oldpapers-v1::after {
+    background: hsla(36, 48%, 71%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    top: 5px;
+    right: -5px;
+    transform: rotate(1deg);
+    z-index: -2;
+}
+
+/* Papers Version Two */
+.oldpapers-v2 {
+    background: hsla(36, 48%, 76%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1);  
+    padding: 30px;
+    position: relative;
+}
+
+.oldpapers-v2,
+.oldpapers-v2::before,
+.oldpapers-v2::after {
+}
+
+.oldpapers-v2::before,
+.oldpapers-v2::after {
+    position: absolute;
+    height: 95%;
+    width: 99%;
+}
+
+.oldpapers-v2::before {
+    background: hsla(37, 48%, 66%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    right: 3px;
+    top: 3px;
+    transform: rotate(-1deg);
+    z-index: -1;
+}
+
+.oldpapers-v2::after {
+    background: hsla(36, 48%, 71%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    top: 1px;
+    right: 10px;
+    transform: rotate(1deg);
+    z-index: -2;
+}
+
+/* Version Three */
+.oldpapers-v3 {
+    background: hsla(36, 48%, 76%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1);  
+    padding: 30px;
+    position: relative;
+}
+
+.oldpapers-v3,
+.oldpapers-v3::before,
+.oldpapers-v3::after {
+}
+
+.oldpapers-v3::before,
+.oldpapers-v3::after {
+    position: absolute;
+    height: 95%;
+    width: 99%;
+}
+
+.oldpapers-v3::before {
+    background: hsla(37, 48%, 66%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    right: 15px;
+    top: 0;
+    transform: rotate(1deg);
+    z-index: -1;
+}
+
+.oldpapers-v3::after {
+    background: hsla(36, 48%, 71%, 1);
+    box-shadow: inset 0 0 10px hsla(25, 34%, 33%, 1); 
+    top: 5px;
+    right: -5px;
+    transform: rotate(-1deg);
+    z-index: -2;
+}
+
