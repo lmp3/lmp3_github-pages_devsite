@@ -2,7 +2,7 @@
 Notes for retro-mimeo.css (v1)
 
     Theme Design by LMP3 for WWW.LMP3.DEV
-    Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International 2024.
+    Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International 2025.
 
     Style Inspired by the Mimeograph / Spirit Duplicator
         https://en.wikipedia.org/wiki/Mimeograph
@@ -53,12 +53,14 @@ body {
     position: absolute;
     left: -9999px;
     z-index: 999;
-    padding: 1rem;
-    background-color: black;  /*  'Parchment' = hex #F1E9D2  */ /*  hsla(340, 90%, 36%, 1);  'CRT-Red' - #b00940  */
-    color: white;  /*  'Mauveine' - #8D029B  */ /*  hsla(196, 90%, 36%, 1); 'CRT-Blue' - #0983b0  */
+    opacity: 0;
+    color: hsla(295, 97%, 31%, 1);  /*  'Mauveine' - #8D029B  */;
+    background-color: hsla(45, 53%, 88%, 1);  /*  'Parchment' - #F1E9D2  */
+    box-shadow: inset 0 0 1rem hsla(0, 25%, 65%, 1);  /*  'Rosy Brown' - #BC8F8F  */
     font-weight: bold;
     font-variant: small-caps;
-    opacity: 0;
+    padding: .5rem;
+    margin: .3rem  */
 }
 .skip_to_main_styles:focus {
     left: 50%;
@@ -232,8 +234,8 @@ footer article {
 
 .top {
     color: hsla(295, 97%, 31%, 1);  /*  'Mauveine' - #8D029B  */;
-    background-color: hsla(45, 53%, 88%, 1);  /*  'Parchment' = hex #F1E9D2  */
-    box-shadow: inset 0 0 1rem hsla(0, 25%, 65%, 1);  /*  'Rosy Brown' = #BC8F8F  */
+    background-color: hsla(45, 53%, 88%, 1);  /*  'Parchment' - #F1E9D2  */
+    box-shadow: inset 0 0 1rem hsla(0, 25%, 65%, 1);  /*  'Rosy Brown' - #BC8F8F  */
     font-weight: bold;
     font-variant: small-caps;
     padding: .5rem;
