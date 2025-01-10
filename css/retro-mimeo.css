@@ -49,6 +49,24 @@ body {
     background-repeat: repeat;
 }
 
+.skip_to_main_styles {
+    position: absolute;
+    left: -9999px;
+    z-index: 999;
+    padding: 1rem;
+    background-color: black;  /*  'Parchment' = hex #F1E9D2  */ /*  hsla(340, 90%, 36%, 1);  'CRT-Red' - #b00940  */
+    color: white;  /*  'Mauveine' - #8D029B  */ /*  hsla(196, 90%, 36%, 1); 'CRT-Blue' - #0983b0  */
+    font-weight: bold;
+    font-variant: small-caps;
+    opacity: 0;
+}
+.skip_to_main_styles:focus {
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+}
+
+
 img {
     display: block;
     max-width: 100%;  /*  Good Practice, as why would stretched out images would ever normally be desired? */
